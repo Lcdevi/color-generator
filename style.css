@@ -1,0 +1,53 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: auto;
+  height: auto;
+}
+/*
+header {
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+}
+*/
+
+#main {
+  display: flex;
+  border : solid 4px red;
+  justify-content: center;
+}
+
+#buttons {
+  display: flex;
+  flex-direction: column;
+  border: solid 1px black;
+  width: 10em;
+  height: auto;
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: solid 1px black;
+  width: 30em;
+  height: 30em;
+}
+
+#sqr, #sqr2, #sqr3, #sqr4 {
+  background-color: white;
+  width: 15em;
+  height: auto;
+}
+
+#containerRGB {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border: solid 1px black;
+  width: 10em;
+  height: auto;
+}
