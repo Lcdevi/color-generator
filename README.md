@@ -1,2 +1,2 @@
 # color-generator
-random color
+random color for Jojo
